@@ -1,0 +1,100 @@
+<html>
+<head>
+<style>
+
+div{
+  margin-top: 20px;
+}
+
+  body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(travelscape/firstpage/1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .heading{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-size: 40px;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-family:candara;
+  }
+  .tagline{
+    position: absolute;
+    top:55%;
+    left:41%;
+    font-size: 25px;
+    color: white;
+    font-family:candara;
+  }
+
+.btn{
+    position: absolute;
+    top:75%;
+    left:41%;
+}
+  .button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  cursor: pointer;
+  font-family: candara;
+}
+
+.button span {
+  cursor: pointer;
+padding: 5px 15px;
+  display: inline-block;
+  position: relative;
+  transition: 0.6s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+div.button a{
+  color:white;
+  transition: .6s ease;
+}
+div.button a:active{
+  color:white;
+}
+
+</style>
+  <title>First page</title>
+  <head>
+    <body>
+
+      <div>
+      <img src="travelscape/logo/logo.png" align="left" height="150" width="250">
+</div>
+        <div class="heading"><h1>
+          TRAVELSCAPE
+
+        </h1></div>
+<div class="tagline">
+      Dream. Explore. Discover.
+      </div>
+      <div class="btn">
+        <div class="button"><a href="travelscape/home.html"><span>Let's get started</span></a></div>
+      </div>
+      </body>
+
+      </html>
